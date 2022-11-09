@@ -1,8 +1,7 @@
 def func(a):
-  for j in range(len(a)):
-    kol = 0
-    kol += 1
-  x = a / kol
-  return x
-a = [1, 4, 5]
-print(func(a))
+  kol = 0
+  for j in a:
+    kol += j
+  x = kol / len(a)
+  print(x)
+func([1, 4, 5])
