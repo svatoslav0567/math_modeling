@@ -7,4 +7,4 @@ def energy(m, h, g, v):
   e2 = (m * v ** 2) / 2
   E = e1 + e2
   print(E)
-energy(m, h, g, v)
+energy(40, h, g, v)
