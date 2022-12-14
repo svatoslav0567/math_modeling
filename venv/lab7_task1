@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+def f(R = 10):
+    t = np.arange(0, 20 ,0.1)
+    x = R * (t - np.sin(t))
+    y = R * (1 - np.cos(t))
+    plt.plot(x, y, ls='-')
+    plt.axis('equal')
+    plt.grid()
+    plt.savefig('giperbola.png')
+
+f()    
